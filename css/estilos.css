@@ -4,9 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
     font-size: 16px;
-    font-family: 'Open Sans';
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
 }
 
@@ -31,8 +30,7 @@ header{
     height: 100vh;
     overflow: hidden;
     padding: 25vh 0;
-
-    background: url('../source/img/presentacion.jpg');
+    background: url('../source/img/presentacion.jpg'); 
     background-position: center;
     background-size: cover;
     background-repeat: repeat;
@@ -50,7 +48,6 @@ header .title{
     text-align: center;
     font-size: 4.6em;
     font-weight: 700;
-
     padding: 15px 0;
     color: #fff;
     background: rgba(218, 15, 133, 0.9);
@@ -64,11 +61,11 @@ header figure{
 header figure img{
     width: 150px;
     border-radius: 50%;
-    border: 6px solid rgba(255, 255, 255, .1)
+    border: 6px solid rgba(18, 165, 202, 0.637)
 }
 
 header .valor{
-    font-family: 'Red Rose', cursive;
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: white;
     font-weight: 700;
@@ -86,7 +83,7 @@ main{
 /* ===ABOUT ME */
 
 main .about-me{
-    font-family: 'Red Rose', cursive;
+    font-family: 'Montserrat', sans-serif;
     width: 100%;
     position: relative;
     text-align: center;
@@ -98,7 +95,7 @@ main .about-me{
 
 
 main .about-me article{
-    font-family: 'Red Rose', cursive;
+    font-family: 'Montserrat', sans-serif;
     width: 60%;
     max-width: 1000px;
     margin: auto;
@@ -175,12 +172,12 @@ main .projects{
 
 main .projects .title{
     font-size: 3em;
-    color: #444;
+    color: black;
     margin-bottom: 20px;
 }
 main .projects .description{
     font-weight: 300;
-    color: #333;
+    color: black;
     font-size: 1.1em;
     margin-bottom: 100px;
 }
@@ -191,7 +188,7 @@ main .projects .project-description{
     background: rgb(235,235,235);
     margin-bottom: 50px;
     text-align: center;
-    color: #444;
+    color:black;
 }
 
     .project-description h2{
@@ -235,7 +232,7 @@ main .skills {
 main .skills .title{
     width: 100%;
     font-size: 3em;
-    color: #444;
+    color: black;
     margin-bottom: 20px;
     margin: auto;
     margin-bottom: 100px;    
@@ -247,7 +244,6 @@ main .skills .title{
         margin: 0 10px ;
         margin-bottom: 30px;
         padding: 20px;
-        
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -282,7 +278,7 @@ footer .contact{
 }
 
 footer .contact h2 {
-    font-size: 5em;
+    font-size: 2em;
     color: #fff;
     font-weight: 300;
     margin-bottom: 40px;
