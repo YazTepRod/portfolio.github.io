@@ -7,6 +7,7 @@
     font-size: 16px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 400;
+
 }
 
 img{
@@ -22,6 +23,7 @@ a{
 
 body{
     overflow-x: hidden;
+    background: url('../source/img/body2.jpg'); 
 }
 
 
@@ -50,7 +52,7 @@ header .title{
     font-weight: 700;
     padding: 15px 0;
     color: #fff;
-    background: rgba(218, 15, 133, 0.9);
+    background: rgb(216, 55, 95);
 }
 
 header figure{
@@ -87,7 +89,7 @@ main .about-me{
     width: 100%;
     position: relative;
     text-align: center;
-    background: rgb(226, 10, 118);
+    background:rgb(216, 55, 95);
     padding: 40px 0;
     margin-bottom: 200px;
 }
@@ -137,7 +139,7 @@ main .characteristics .character{
     width: 20%;
     padding: 30px;
     text-align: center;
-    background: rgb(226, 10, 118);
+    background: rgb(216, 55, 95);
     transition: all .3s ease;
 }
 
@@ -201,7 +203,7 @@ main .projects .project-description{
     }
 
     .project-description div{
-        background: rgb(209, 29, 89);
+        background: rgb(216, 55, 95);
         margin-top: 20px;
         padding: 15px;
     }
